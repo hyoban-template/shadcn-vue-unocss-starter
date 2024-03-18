@@ -14,11 +14,11 @@
     "clsx": "^2.1.0",
     "lucide-vue-next": "^0.358.0",
     "radix-vue": "^1.5.2",
-    "tailwind-merge": "^2.2.1",
+    "tailwind-merge": "^2.2.2",
     "vue": "^3.4.21"
   },
   "devDependencies": {
-    "@types/node": "^20.11.27",
+    "@types/node": "^20.11.28",
     "@vitejs/plugin-vue": "^5.0.4",
     "typescript": "^5.4.2",
     "unocss": "^0.58.6",
