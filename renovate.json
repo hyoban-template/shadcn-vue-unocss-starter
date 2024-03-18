@@ -4,5 +4,6 @@
     "local>hyoban/renovate-config"
   ],
   "automerge": true,
-  "ignoreTests": true
+  "ignoreTests": true,
+  "automergeType": "branch"
 }
