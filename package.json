@@ -20,7 +20,7 @@
   "devDependencies": {
     "@types/node": "^20.11.30",
     "@vitejs/plugin-vue": "^5.0.4",
-    "typescript": "^5.4.2",
+    "typescript": "^5.4.3",
     "unocss": "^0.58.6",
     "unocss-preset-animations": "^1.0.1",
     "unocss-preset-shadcn": "^0.2.3",
