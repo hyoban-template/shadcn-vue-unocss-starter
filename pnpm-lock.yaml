@@ -41,11 +41,11 @@ devDependencies:
     specifier: ^0.58.6
     version: 0.58.6(postcss@8.4.38)(vite@5.2.3)
   unocss-preset-animations:
-    specifier: ^1.0.1
-    version: 1.0.1(@unocss/preset-wind@0.58.6)(unocss@0.58.6)
+    specifier: ^1.0.2
+    version: 1.0.2(@unocss/preset-wind@0.58.6)(unocss@0.58.6)
   unocss-preset-shadcn:
     specifier: ^0.2.3
-    version: 0.2.3(unocss-preset-animations@1.0.1)(unocss@0.58.6)
+    version: 0.2.3(unocss-preset-animations@1.0.2)(unocss@0.58.6)
   vite:
     specifier: ^5.2.3
     version: 5.2.3(@types/node@20.11.30)
@@ -1929,8 +1929,8 @@ packages:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
-  /unocss-preset-animations@1.0.1(@unocss/preset-wind@0.58.6)(unocss@0.58.6):
-    resolution: {integrity: sha512-9ev3+1+0lAMgkqRa2z1z1GBtvJRHrzL1so/tLpiBcFqfDWRUg/S4jqS0xFXQkfMEWIzvRJDGgxbep4bvm/Db/Q==}
+  /unocss-preset-animations@1.0.2(@unocss/preset-wind@0.58.6)(unocss@0.58.6):
+    resolution: {integrity: sha512-AacFdOvHwvKZKqjn9/paKQ50LmU0qk4n6350/toQcSX3XEQIE7rTZwm/68Aag5jP2Z8M4Y8IvDf8Q7Qc0MNdTw==}
     peerDependencies:
       '@unocss/preset-wind': '>= 0.56.0 < 1'
       unocss: '>= 0.56.0 < 1'
@@ -1939,14 +1939,14 @@ packages:
       unocss: 0.58.6(postcss@8.4.38)(vite@5.2.3)
     dev: true
 
-  /unocss-preset-shadcn@0.2.3(unocss-preset-animations@1.0.1)(unocss@0.58.6):
+  /unocss-preset-shadcn@0.2.3(unocss-preset-animations@1.0.2)(unocss@0.58.6):
     resolution: {integrity: sha512-bmc4gCAKKeQP1I7FAU2OLqEoFDbSutWiD8/cEqZX6L2qVcMb/Hm3Cp4Q9PmIGSBz7hZYp3L8dSiJFW36vCPXRQ==}
     peerDependencies:
       unocss: '>= 0.56.0 < 1'
       unocss-preset-animations: ^1.0.1
     dependencies:
       unocss: 0.58.6(postcss@8.4.38)(vite@5.2.3)
-      unocss-preset-animations: 1.0.1(@unocss/preset-wind@0.58.6)(unocss@0.58.6)
+      unocss-preset-animations: 1.0.2(@unocss/preset-wind@0.58.6)(unocss@0.58.6)
     dev: true
 
   /unocss@0.58.6(postcss@8.4.38)(vite@5.2.3):
