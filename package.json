@@ -3,28 +3,29 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "packageManager": "pnpm@8.15.6",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@unocss/reset": "^0.58.8",
+    "@unocss/reset": "^0.58.9",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "lucide-vue-next": "^0.363.0",
-    "radix-vue": "^1.5.3",
+    "lucide-vue-next": "^0.367.0",
+    "radix-vue": "^1.6.2",
     "tailwind-merge": "^2.2.2",
     "vue": "^3.4.21"
   },
   "devDependencies": {
-    "@types/node": "^20.11.30",
+    "@types/node": "^20.12.7",
     "@vitejs/plugin-vue": "^5.0.4",
-    "typescript": "^5.4.3",
-    "unocss": "^0.58.8",
+    "typescript": "^5.4.5",
+    "unocss": "^0.58.9",
     "unocss-preset-animations": "^1.0.2",
     "unocss-preset-shadcn": "^0.2.3",
-    "vite": "^5.2.7",
-    "vue-tsc": "^2.0.7"
+    "vite": "^5.2.8",
+    "vue-tsc": "^2.0.12"
   }
 }
